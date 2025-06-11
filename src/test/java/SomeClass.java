@@ -14,4 +14,7 @@ public class SomeClass {
         int y=3;
         assert x*y==6;
     }
+    public void asd(){
+        int x = 1/0;
+    }
 }
