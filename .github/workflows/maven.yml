@@ -27,8 +27,7 @@ jobs:
       uses: SonarSource/sonarqube-scan-action@v2.0.0
       with:
         args: >
-          -Dsonar.projectKey=your_project_key
-          -Dsonar.projectName=your_project_name
+          -Dsonar.projectKey=zuzix34_IO_MJZ
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
