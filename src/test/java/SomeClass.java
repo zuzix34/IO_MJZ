@@ -15,3 +15,9 @@ public class SomeClass {
         assert x*y==6;
     }
 }
+
+public class MathUtils {
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+}
