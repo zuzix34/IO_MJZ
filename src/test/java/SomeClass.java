@@ -5,7 +5,7 @@ public class SomeClass {
     public void test1(){
         int x=1;
         int y=2;
-        assert x+1==y;
+        assert x+1!=y;
     }
 
     @Test
