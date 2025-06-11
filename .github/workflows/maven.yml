@@ -28,6 +28,7 @@ jobs:
       with:
         args: >
           -Dsonar.projectKey=zuzix34_IO_MJZ
+          -Dsonar.organisation=zuzix34
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
