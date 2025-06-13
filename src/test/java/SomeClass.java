@@ -18,3 +18,9 @@ public class SomeClass {
         int x = 1;
     }
 }
+
+public class MathUtils {
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+}
